@@ -20,7 +20,7 @@ This is a simple real-time chat application implemented in C++ using WinSock. It
     ```
 
 2. Enter your chat name. To send a private message: /msg <client_id> <message> 
-To send a broadcast message: <message>
+To send a broadcast message:  Just type the message
 
 ## Example Usage
 
