@@ -130,7 +130,7 @@ int main() {
     getline(cin, username);
 
     ChatClient client(username);
-    if (!client.Connect("127.0.0.1", 12345)) {
+    if (!client.Connect("127.0.0.1", 1010)) {
         cout << "Failed to connect to server." << endl;
     }
     return 0;

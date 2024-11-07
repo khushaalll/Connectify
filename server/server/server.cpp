@@ -166,7 +166,7 @@ public:
 
 int main() {
     ChatServer server;
-    if (!server.Start(12345)) {
+    if (!server.Start(1010)) {
         cout << "Failed to start the server." << endl;
     }
     return 0;
